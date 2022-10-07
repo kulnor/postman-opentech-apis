@@ -1,0 +1,15 @@
+id = bc573ca2-d5fc-4c4f-982e-c2e9ebe82121
+
+[relations]
+
+[relations.collections]
+rootDirectory = idgenerator/collections
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = idgenerator/schemas
+files[] = {"path":"index.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
